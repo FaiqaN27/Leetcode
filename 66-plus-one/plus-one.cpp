@@ -1,19 +1,19 @@
 class Solution {
 public:
-    vector<int> plusOne(vector<int>& nums) {
-        int n = nums.size() -1;
+    vector<int> plusOne(vector<int>& digits) {
+        int n = digits.size() -1;
         for(int  i = n ; i>=0; i--){
-            if(nums[i] != 9){
-                nums[i]++;
-                return nums;
+            if(digits[i] != 9){
+                digits[i]++;
+                return digits;
             }
 
-            nums[i] = 0;
+            digits[i] = 0;
             if(i == 0){
-                nums.insert(nums.begin() , 1);
-                return nums;
+                digits.insert(digits.begin() , 1);
+                return digits;
             }
         }
-        return nums;
+        return digits;
     }
 };
