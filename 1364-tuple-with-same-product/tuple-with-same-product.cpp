@@ -11,7 +11,6 @@ public:
                 mp[product].push_back({nums[i] , nums[j]});
             }
         }
-
             for(auto &i : mp){
                 int  k = i.second.size();
                 if(k>1){
