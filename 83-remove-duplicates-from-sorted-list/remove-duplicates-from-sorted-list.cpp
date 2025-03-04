@@ -15,7 +15,7 @@ public:
 
         while(cur && cur->next){
             if(cur->val == cur->next->val){
-                ListNode* next = cur->next;
+                // ListNode* next = cur->next;
                 cur->next = cur->next->next;
             }
             else{
