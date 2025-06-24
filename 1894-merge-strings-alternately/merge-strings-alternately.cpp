@@ -2,15 +2,25 @@ class Solution {
 public:
     string mergeAlternately(string w1, string w2) {
         string combo = "";
-        int maximum = max(w1.size(),w2.size());
-        for(int i =0 ; i<maximum ; i++){
-            if(i<w1.size()){
-                combo+= w1[i];
-            }
-            if(i<w2.size()){
-                combo += w2[i];
-            }
+        int left = 0;
+        int right = 0;
+        while(left<w1.size() && right<w2.size()){
+            combo.push_back(w1[left]);
+            combo.push_back(w2[right]);
+            left++;
+            right++;
         }
+
+        while(left<w1.size()){
+            combo.push_back(w1[left]);
+            left++;
+        }
+
+        while(right<w2.size()){
+            combo.push_back(w2[right]);
+            right++;
+        }
+
         return combo;
     }
 };
