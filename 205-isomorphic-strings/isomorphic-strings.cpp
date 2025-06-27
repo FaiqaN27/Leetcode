@@ -1,20 +1,15 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        if(s.size() != t.size()) return false;
-
-        unordered_map<char,int> smap , tmap;
-
+        char sArr[256] = {0};
+        char tArr[256] = {0};
         for(int i=0; i<s.size(); i++){
-            if(smap.find(s[i]) == smap.end()){
-                smap[s[i]] = i;
-            }
+            char sChar = s[i];
+            char tChar = t[i];
+            if(sArr[sChar] != tArr[tChar]) return false;
 
-            if(tmap.find(t[i]) == tmap.end()){
-                tmap[t[i]] = i;
-            }
-
-            if(smap[s[i]] != tmap[t[i]]) return false;
+            sArr[sChar] = i+1;
+            tArr[tChar] = i+1;
         }
 
         return true;
