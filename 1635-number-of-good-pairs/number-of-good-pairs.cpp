@@ -1,14 +1,13 @@
 class Solution {
 public:
     int numIdenticalPairs(vector<int>& nums) {
-        vector<int> freq(101 , 0);
+        int n = nums.size();
         int count = 0;
-        for(int n : nums){
-            count += freq[n];
-
-            freq[n]++;
+        for(int i=0; i<n-1 ; i++){
+            for(int j= i+1 ;j<n; j++){
+                if(nums[i] == nums[j]) count++;
+            }
         }
-
         return count;
     }
 };
