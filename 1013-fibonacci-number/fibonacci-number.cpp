@@ -1,7 +1,7 @@
 class Solution {
 public:
     int fib(int num) {
-        if(num == 0 || num ==1){
+        if(num == 0 || num == 1){
             return num;
         }
 
