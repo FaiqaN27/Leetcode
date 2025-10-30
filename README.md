@@ -26,7 +26,6 @@ Each file corresponds to a specific problem, named by its **problem number and t
 ## 🔑 Topics
 - leetcode
 - leetcode-solutions
-- coding-challenges
 - algorithms
 - data-structures
 - interview-prep
@@ -35,7 +34,7 @@ Each file corresponds to a specific problem, named by its **problem number and t
 
 ## 📌 Note
 These solutions are written for **learning and practice purposes**.  
-There may be multiple ways to solve a problem—this repo reflects my personal approaches and thought process.
+There may be multiple ways to solve a problem.This repo reflects my personal approaches and thought process.
 
 ---
 
