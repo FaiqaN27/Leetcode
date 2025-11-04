@@ -1,4 +1,4 @@
-# Leetcode Solutions in C++
+# Leetcode Solutions
 
 This repository contains my solutions to various **LeetCode** problems, all implemented in **C++**.  
 Each file corresponds to a specific problem, named by its **problem number and title**, making it easy to navigate and find solutions.
