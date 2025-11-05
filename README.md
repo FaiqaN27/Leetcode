@@ -32,5 +32,4 @@ There may be multiple ways to solve a problem.This repo reflects my personal app
 ## ⭐ Contributions
 If you find this repo helpful:
 - ⭐ Star the repository
-- 🍴 Fork and try the problems yourself
 - 💡 Open issues or pull requests for improvements
