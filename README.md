@@ -23,9 +23,24 @@ Each file corresponds to a specific problem, named by its **problem number and t
 
 ---
 
-## 📌 Note
+## 📌 Topics Covered
+
+- Arrays
+- Strings
+- Two Pointers
+- Linked List
+- Binary Search
+- Sliding Window
+- Recursion
+- Hashing
+- Dynamic Programming
+…and more as I continue solving.
+
+---
+
+## 📒 Note
 These solutions are written for **learning and practice purposes**.  
-There may be multiple ways to solve a problem.This repo reflects my personal approaches and thought process.
+There can be multiple valid solutions to a problem. This repository reflects my personal approach, learning, and thought process.
 
 ---
 
