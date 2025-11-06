@@ -48,3 +48,9 @@ There can be multiple valid solutions to a problem. This repository reflects my 
 If you find this repo helpful:
 - ⭐ Star the repository
 - 💡 Open issues or pull requests for improvements
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License
