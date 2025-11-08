@@ -40,7 +40,7 @@ Each file corresponds to a specific problem, named by its **problem number and t
 
 ## 📒 Note
 These solutions are written for **learning and practice purposes**.  
-There can be multiple valid solutions to a problem. This repository reflects my personal approach, learning, and thought process.
+There can be multiple valid solutions to a problem. This repository reflects my personal approach, learning, and thought process.You can choose your own approach.
 
 ---
 
