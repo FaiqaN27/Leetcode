@@ -34,7 +34,6 @@ Each file corresponds to a specific problem, named by its **problem number and t
 - Recursion
 - Hashing
 - Dynamic Programming
-…and more as I continue solving.
 
 ---
 
