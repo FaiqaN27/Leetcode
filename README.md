@@ -33,7 +33,7 @@ Each file corresponds to a specific problem, named by its **problem number and t
 - Sliding Window
 - Recursion
 - Hashing
-- Dynamic Programming
+- Dynamic Programming & more
 
 ---
 
